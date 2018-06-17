@@ -1,0 +1,343 @@
+number sign #️
+asterisk *️
+digit zero 0️
+digit nine 9️
+copyright ©️
+registered ®️
+double exclamation mark ‼️
+exclamation question mark ⁉️
+trade mark ™️
+information ℹ️
+left-right arrow ↔️
+down-left arrow ↙️
+right arrow curving left ↩️
+left arrow curving right ↪️
+watch ⌚
+hourglass done ⌛
+keyboard ⌨️
+eject button ⏏️
+fast-forward button ⏩
+hourglass not done ⏳
+pause button ⏸️
+record button ⏺️
+circled M Ⓜ️
+black small square ▪️
+white small square ▫️
+play button ▶️
+reverse button ◀️
+white medium square ◻️
+black medium-small square ◾
+sun ☀️
+comet ☄️
+telephone ☎️
+ballot box with check ☑️
+umbrella with rain drops ☔
+hot beverage ☕
+shamrock ☘️
+index pointing up ☝️
+skull and crossbones ☠️
+radioactive ☢️
+biohazard ☣️
+orthodox cross ☦️
+star and crescent ☪️
+peace symbol ☮️
+yin yang ☯️
+wheel of dharma ☸️
+smiling face ☺️
+female sign ♀️
+male sign ♂️
+Aries ♈
+Pisces ♓
+chess pawn ♟️
+spade suit ♠️
+club suit ♣️
+heart suit ♥️
+diamond suit ♦️
+hot springs ♨️
+recycling symbol ♻️
+infinity ♾️
+wheelchair symbol ♿
+hammer and pick ⚒️
+alembic ⚗️
+gear ⚙️
+atom symbol ⚛️
+fleur-de-lis ⚜️
+warning ⚠️
+high voltage ⚡
+white circle ⚪
+black circle ⚫
+coffin ⚰️
+funeral urn ⚱️
+soccer ball ⚽
+baseball ⚾
+snowman without snow ⛄
+sun behind cloud ⛅
+cloud with lightning and rain ⛈️
+Ophiuchus ⛎
+pick ⛏️
+rescue worker’s helmet ⛑️
+chains ⛓️
+no entry ⛔
+shinto shrine ⛩️
+church ⛪
+mountain ⛰️
+sailboat ⛵
+skier ⛷️
+tent ⛺
+fuel pump ⛽
+scissors ✂️
+white heavy check mark ✅
+airplane ✈️
+envelope ✉️
+raised fist ✊
+raised hand ✋
+victory hand ✌️
+writing hand ✍️
+pencil ✏️
+black nib ✒️
+heavy check mark ✔️
+heavy multiplication x ✖️
+latin cross ✝️
+star of David ✡️
+sparkles ✨
+eight-spoked asterisk ✳️
+eight-pointed star ✴️
+snowflake ❄️
+sparkle ❇️
+cross mark ❌
+cross mark button ❎
+question mark ❓
+white exclamation mark ❕
+exclamation mark ❗
+heavy heart exclamation ❣️
+red heart ❤️
+heavy plus sign ➕
+heavy division sign ➗
+right arrow ➡️
+curly loop ➰
+double curly loop ➿
+right arrow curving up ⤴️
+right arrow curving down ⤵️
+left arrow ⬅️
+down arrow ⬇️
+black large square ⬛
+white large square ⬜
+star ⭐
+heavy large circle ⭕
+wavy dash 〰️
+part alternation mark 〽️
+Japanese “congratulations” button ㊗️
+Japanese “secret” button ㊙️
+mahjong red dragon 🀄
+joker 🃏
+P button blood type) 🅿️
+CL button 🆑
+VS button 🆚
+regional indicator symbol letter a 🇦
+regional indicator symbol letter z 🇿
+Japanese “here” button 🈂🈁
+Japanese “service charge” button ️
+Japanese “free of charge” button 🈚
+Japanese “reserved” button 🈯
+Japanese “prohibited” button 🈲
+Japanese “open for business” button 🈺
+Japanese “bargain” button 🉐
+Japanese “acceptable” button 🉑
+cyclone 🌀
+shooting star 🌡🌠
+thermometer 🌤️
+sun behind small cloud 🌬️
+wind face ️
+hot dog 🌭
+burrito 🌯
+chestnut 🌰
+cactus 🌶🌵
+hot pepper ️
+tulip 🌷
+baby bottle 🍽🍼
+fork and knife with plate ️
+bottle with popping cork 🍾
+popcorn 🍿
+ribbon 🎀
+graduation cap 🎖🎓
+military medal 🎗️
+reminder ribbon 🎙️
+studio microphone 🎛️
+control knobs 🎞️
+film frames 🎟️
+admission tickets ️
+carousel horse 🎠
+person surfing 🏄
+sports medal 🏅
+trophy 🏆
+person swimming 🏋🏊
+person lifting weights 🏎️
+racing car ️
+cricket game 🏏
+ping pong 🏔🏓
+snow-capped mountain 🏟️
+stadium ️
+house 🏠
+castle 🏳🏰
+white flag 🏵️
+rosette 🏷️
+label ️
+badminton 🏸
+dark skin tone 🏿
+rat 🐀
+paw prints 🐿🐾
+chipmunk ️
+eyes 👁👀
+eye ️
+ear 👂
+camera 📷
+camera with flash 📸
+video camera 📹
+videocassette 📽📼
+film projector ️
+prayer beads 📿
+shuffle tracks button 🔀
+downwards button 🕉🔽
+om 🕊️
+dove ️
+kaaba 🕋
+menorah 🕎
+one o’clock 🕐
+twelve-thirty 🕯🕧
+candle 🕰️
+mantelpiece clock 🕳️
+hole 🕹️
+joystick ️
+man dancing 🖇🕺
+linked paperclips 🖊️
+pen 🖍️
+crayon 🖐️
+hand with fingers splayed ️
+middle finger 🖕
+vulcan salute 🖖
+black heart 🖥🖤
+desktop computer 🖨️
+printer 🖱️
+computer mouse 🖲️
+trackball 🖼️
+framed picture 🗂️
+card index dividers 🗄️
+file cabinet 🗑️
+wastebasket 🗓️
+spiral calendar 🗜️
+clamp 🗞️
+rolled-up newspaper 🗡️
+dagger 🗣️
+speaking head 🗨️
+left speech bubble 🗯️
+right anger bubble 🗳️
+ballot box with ballot 🗺️
+world map ️
+mount fuji 🗻
+moai 🗿
+grinning face 😀
+beaming face with smiling eyes 😁
+neutral face 😐
+expressionless face 😑
+unamused face 😒
+pensive face 😔
+confused face 😕
+confounded face 😖
+kissing face 😗
+face blowing a kiss 😘
+kissing face with smiling eyes 😙
+kissing face with closed eyes 😚
+face with tongue 😛
+winking face with tongue 😜
+disappointed face 😞
+worried face 😟
+angry face 😠
+sad but relieved face 😥
+frowning face with open mouth 😦
+anguished face 😧
+fearful face 😨
+tired face 😫
+grimacing face 😬
+loudly crying face 😭
+face with open mouth 😮
+hushed face 😯
+anxious face with sweat 😰
+flushed face 😳
+sleeping face 😴
+dizzy face 😵
+weary cat face 🙀
+slightly frowning face 🙁
+slightly smiling face 🙂
+upside-down face 🙃
+face with rolling eyes 🙄
+person gesturing NO 🙅
+folded hands 🙏
+rocket 🚀
+left luggage 🛋🛅
+couch and lamp 🛏️
+bed ️
+place of worship 🛐
+stop sign 🛑
+shopping cart 🛠🛒
+hammer and wrench 🛥️
+motor boat 🛩️
+small airplane ️
+airplane departure 🛫
+airplane arrival 🛰🛬
+satellite 🛳️
+passenger ship ️
+kick scooter 🛴
+canoe 🛶
+sled 🛷
+flying saucer 🛸
+skateboard 🛹
+zipper-mouth face 🤐
+sign of the horns 🤘
+call me hand 🤙
+crossed fingers 🤞
+love-you gesture 🤟
+cowboy hat face 🤠
+sneezing face 🤧
+face with raised eyebrow 🤨
+exploding head 🤯
+pregnant woman 🤰
+breast-feeding 🤱
+palms up together 🤲
+selfie 🤳
+person fencing 🤺
+people wrestling 🤼
+person playing handball 🤾
+wilted flower 🥀
+goal net 🥅
+\U0001st place medal 🥇
+martial arts uniform 🥋
+curling stone 🥌
+lacrosse 🥍
+flying disc 🥏
+croissant 🥐
+pancakes 🥞
+dumpling 🥟
+canned food 🥫
+leafy green 🥬
+smiling face with 3 hearts 🥰
+partying face 🥳
+cold face 🥶
+pleading face 🥺
+lab coat 🥼
+woman’s flat shoe 🥿
+crab 🦀
+unicorn face 🦄
+eagle 🦅
+squid 🦑
+giraffe 🦒
+cricket 🦗
+kangaroo 🦘
+swan 🦢
+red-haired 🦰
+supervillain 🦹
+cheese wedge 🧀
+cupcake 🧁
+salt 🧂
+face with monocle 🧐
+socks 🧦
+red envelope 🧧
