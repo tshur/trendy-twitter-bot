@@ -10,13 +10,14 @@ import re
 import os
 import sys
 import nltk
-import twint.Twint as twint
+import twint
 import argparse
 import datetime
 import asyncio
 
-# Load Twitter application credentials (API keys) from config.py
-from config import CONSUMER_KEY, CONSUMER_SECRET, ACCESS_KEY, ACCESS_SECRET
+# Load Twitter application credentials (API keys)
+from credentials import CONSUMER_KEY, CONSUMER_SECRET, ACCESS_KEY, ACCESS_SECRET, GIPHY_API_KEY
+from utils import POSifiedNewlineText, EmojiTranslator, contains_one_of, get_gif, load_corpus
 
 SAN_JOSE = (37.3382, -121.8863)
 SAN_FRANCISCO = (37.7749, -122.4194)
@@ -26,34 +27,6 @@ BOT_DESC_ITEMS = ['д', 'site', 'link', 'url', 'tweet', '.ly', 'http', '#FollowB
 FILTER_ITEMS = ['.gl', 'http']
 QUERY_TERMS = ['', 'the', 'I', 'and', 'a', 'that', 'my']
 
-class POSifiedNewlineText(markovify.NewlineText):
-    def word_split(self, sentence):
-        words = re.split(self.word_split_pattern, sentence)
-        words = [ "::".join(tag) for tag in nltk.pos_tag(words) ]
-        return words
-
-    def word_join(self, words):
-        sentence = " ".join(word.split("::")[0] for word in words)
-        return sentence
-
-class EmojiTranslator:
-    def __init__(self):
-        self.table_re = re.compile(r'(.+) (.+)', re.UNICODE)
-        self.tag_re = re.compile(r'Emoji: (.+)')
-        self.table = {}
-        with open('emoji.txt', 'r') as fp:
-            for line in fp:
-                m = self.table_re.match(line)
-                self.table[m.group(1)] = m.group(2)
-
-    def encode(self, tag):
-        m = self.tag_re.match(tag)
-        if m:
-            cldr = m.group(1).lower()
-            if cldr in self.table:
-                return self.table[cldr]
-
-        return None
 
 class TwitterBot:
     def __init__(self):
@@ -167,7 +140,7 @@ class TwitterBot:
         print('Using Markov Chains to generate tweets for hashtag...')
         text_model = POSifiedNewlineText(corpus, state_size=2)
 
-        tweets = []
+        # tweets = []
         for _ in range(5):
             for _ in range(5):
                 tweet = text_model.make_short_sentence(140)
@@ -304,49 +277,6 @@ class TwitterBot:
             hashtag = bot.find_hashtag()
             if bot.tweet(hashtag, new_corpus):
                 break
-
-def get_gif(string):
-    keywords = string.strip().split(' ')
-    query = '+'.join(keywords)
-
-    res = requests.get(url='http://api.giphy.com/v1/gifs/search?q={}&api_key=SX0yeFGht7XYBd4BMi5YvBwlB9vvhavi&limit=10'.format(query))
-
-    gifs = res.json()['data']
-    gif = random.choice(gifs)
-    url = gif['bitly_gif_url']
-    return url
-
-def contains_one_of(string, parts):
-        for part in parts:
-            if part in string:
-                return True
-
-        return False
-
-def load_corpus(filename):
-    num_lines = 0
-    lines = []
-    pattern = re.compile(r'<Emoji: .*?>')
-    with open(filename, 'r') as fp:
-        for line in fp:
-            line = re.sub(r'[<>]', '%%', line).strip()
-            line = line.split('%%')
-            result = []
-            for term in line:
-                if 'Emoji:' in term:
-                    term = trans.encode(term)
-                if not term or '.com' in term or '.ly' in term or '@' in term:
-                    continue
-                result.append(term)
-
-            lines.append(' '.join(result))
-            num_lines += 1
-
-    if num_lines < 500:
-        print('The corpus is not large enough to generate a good tweet!')
-        return None
-
-    return '\n'.join(lines)
 
 def medium_popularity(likes):
     return likes > 8 and likes < 80
