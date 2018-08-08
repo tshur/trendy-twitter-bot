@@ -1,3 +1,7 @@
+# VSCode workspace and settings files
+*.code-workspace
+.vscode/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
