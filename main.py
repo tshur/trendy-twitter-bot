@@ -16,7 +16,7 @@ import datetime
 import asyncio
 
 # Load Twitter application credentials (API keys)
-from credentials import CONSUMER_KEY, CONSUMER_SECRET, ACCESS_KEY, ACCESS_SECRET, GIPHY_API_KEY
+from credentials import CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_SECRET, GIPHY_API_KEY
 from utils import POSifiedNewlineText, EmojiTranslator, contains_one_of, get_gif, load_corpus
 
 SAN_JOSE = (37.3382, -121.8863)
@@ -33,7 +33,7 @@ class TwitterBot:
         """Performs authentication and initializes a tweepy api object."""
 
         auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
-        auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
+        auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
         self.api = tweepy.API(auth, wait_on_rate_limit=True)
 
     def tweet_message(self, message):
@@ -254,7 +254,7 @@ class TwitterBot:
 
     def tweet(self, query, new_corpus=True):
         def filter_tweet(tweet):
-            text, likes, time = tweet
+            text, *_ = tweet
             if not contains_one_of(text, FILTER_ITEMS):
                 return True
             return False
@@ -273,7 +273,7 @@ class TwitterBot:
             return False
 
     def tweet_trendy(self, retries=5, new_corpus=True):
-        for i in range(retries):
+        for _ in range(retries):
             hashtag = bot.find_hashtag()
             if bot.tweet(hashtag, new_corpus):
                 break
