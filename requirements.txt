@@ -32,6 +32,6 @@ twint==1.1.4.3
 typed-ast==1.1.0
 typing==3.6.4
 Unidecode==1.0.22
-urllib3==1.23
+urllib3==1.26.5
 wrapt==1.10.11
 yarl==1.2.6
