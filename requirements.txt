@@ -19,7 +19,7 @@ nltk==3.3
 numpy==1.15.0
 oauthlib==2.1.0
 pandas==0.23.4
-pycares==2.3.0
+pycares==4.2.0
 pylint==2.1.1
 PySocks==1.6.8
 python-dateutil==2.7.3
